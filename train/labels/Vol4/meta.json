@@ -1,0 +1,44 @@
+{
+  "vol_id": 4,
+  "raw_file": "vol4.vtk",
+  "shape_zyx": [
+    247,
+    145,
+    167
+  ],
+  "slice_axis": 0,
+  "n_slices": 247,
+  "spacing": [
+    0.25,
+    0.25,
+    0.25
+  ],
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "description": "UKCMB, UZ4",
+  "annotations": {
+    "follicle_r1": {
+      "max_label": 7,
+      "is_label_map": true,
+      "nonzero_voxels": 408531
+    },
+    "follicle_r2": {
+      "max_label": 5,
+      "is_label_map": true,
+      "nonzero_voxels": 493033
+    },
+    "ovary_r1": {
+      "max_label": 1,
+      "is_label_map": false,
+      "nonzero_voxels": 1484255
+    },
+    "ovary_r2": {
+      "max_label": 1,
+      "is_label_map": false,
+      "nonzero_voxels": 2445072
+    }
+  }
+}

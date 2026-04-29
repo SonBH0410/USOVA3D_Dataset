@@ -1,0 +1,44 @@
+{
+  "vol_id": 5,
+  "raw_file": "vol5.vtk",
+  "shape_zyx": [
+    237,
+    158,
+    212
+  ],
+  "slice_axis": 0,
+  "n_slices": 237,
+  "spacing": [
+    0.25,
+    0.25,
+    0.25
+  ],
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "description": "UKCMB, UZ5",
+  "annotations": {
+    "follicle_r1": {
+      "max_label": 4,
+      "is_label_map": true,
+      "nonzero_voxels": 395050
+    },
+    "follicle_r2": {
+      "max_label": 3,
+      "is_label_map": true,
+      "nonzero_voxels": 486941
+    },
+    "ovary_r1": {
+      "max_label": 1,
+      "is_label_map": false,
+      "nonzero_voxels": 1792862
+    },
+    "ovary_r2": {
+      "max_label": 1,
+      "is_label_map": false,
+      "nonzero_voxels": 2886420
+    }
+  }
+}

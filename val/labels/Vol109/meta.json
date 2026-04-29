@@ -1,0 +1,44 @@
+{
+  "vol_id": 109,
+  "raw_file": "vol109.vtk",
+  "shape_zyx": [
+    199,
+    119,
+    191
+  ],
+  "slice_axis": 0,
+  "n_slices": 199,
+  "spacing": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "description": "UZ-volumen",
+  "annotations": {
+    "follicle_r1": {
+      "max_label": 3,
+      "is_label_map": true,
+      "nonzero_voxels": 1317439
+    },
+    "follicle_r2": {
+      "max_label": 2,
+      "is_label_map": true,
+      "nonzero_voxels": 1351517
+    },
+    "ovary_r1": {
+      "max_label": 1,
+      "is_label_map": false,
+      "nonzero_voxels": 2035517
+    },
+    "ovary_r2": {
+      "max_label": 1,
+      "is_label_map": false,
+      "nonzero_voxels": 2012353
+    }
+  }
+}
