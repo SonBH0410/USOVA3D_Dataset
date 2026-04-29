@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset status -s)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset remote -v)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset branch --show-current)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset fetch origin)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset log --oneline -5 main)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset log --oneline -5 origin/main)",
+      "Bash(git -C C:/Users/mirlab/Desktop/USOVA3D_Dataset rev-list --left-right --count main...origin/main)"
+    ]
+  }
+}
